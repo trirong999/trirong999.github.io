@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="style-blue-1 custom_fonts" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts.js" defer></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
+  <title>Website Grid from Google Sheets</title>
+</head>
+<body class="font-lato comps">
+  <div class="container">
+    <div class="top-section">
+      <div class="collection-01__search-box">
+        <input type="text" id="search-input" class="collection-01__search-input" placeholder="Search..." />
+        <select id="language-select" class="language-select">
+          <option value="en">English</option>
+          <option value="th">ไทย</option>
+          <option value="cn">中文</option>
+          <option value="es">Español</option>
+          <option value="pt">Português</option>
+          <option value="jp">日本語</option>
+          <option value="ru">Русский</option>
+          <option value="hi">हिन्दी</option>
+          <option value="ko">한국어</option>
+          <option value="ar">العربية</option>
+          <option value="bn">বাংলা</option>
+          <option value="vi">Tiếng Việt</option>
+          <option value="de">Deutsch</option>
+          <option value="fr">Français</option>
+          <option value="id">Bahasa Indonesia</option>
+          <option value="it">Italiano</option>
+        </select>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="left-menu">
+        <div id="hamburger-menu" class="hamburger-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div id="tag-buttons-container" class="collection-01__tags-box"></div>
+      </div>
+      <div class="right-content">
+        <ul id="card-container" class="collection-01__items">
+          <!-- Cards will be dynamically added here -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <button id="back-to-top" class="back-to-top">🚀</button>
+</body>
+</html>
